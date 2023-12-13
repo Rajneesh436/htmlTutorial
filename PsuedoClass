@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #myid {
+            background-color: blue !important;
+          }
+          
+          .myclass {
+            background-color: yellow !important;
+          }
+          
+          p {
+            background-color: red !important;
+          }
+    </style>
+</head>
+
+<body>
+    <div>
+
+        <p>This is some text in a paragraph.</p>
+
+        <p class="myclass">This is some text in a paragraph.</p>
+
+        <p id="myid">This is some text in a paragraph.</p>
+        <!-- <h2>Styling a link depending on state</h2>
+
+        <p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
+        <p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+        <p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p> -->
+
+    </div>
+</body>
+
+</html>
